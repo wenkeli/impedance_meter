@@ -1,0 +1,57 @@
+// Sample main.cpp file. Blinks the built-in LED, sends a message out
+// USART2, and turns on PWM on pin 2.
+
+#include <wirish/wirish.h>
+
+#ifndef Port2Pin
+#define Port2Pin(port, bit) ((port-'A')*16+bit)
+#endif
+
+void setup() {
+    pinMode(BOARD_LED_PIN, OUTPUT);
+    pinMode(Port2Pin('E', 0), OUTPUT);
+    pinMode(Port2Pin('E', 1), OUTPUT);
+    pinMode(Port2Pin('E', 2), OUTPUT);
+    pinMode(Port2Pin('E', 3), OUTPUT);
+    pinMode(Port2Pin('E', 4), OUTPUT);
+    pinMode(Port2Pin('E', 5), OUTPUT);
+    pinMode(Port2Pin('E', 6), OUTPUT);
+
+    pinMode(Port2Pin('B', 12), OUTPUT);
+    pinMode(Port2Pin('B', 13), OUTPUT);
+    pinMode(Port2Pin('B', 14), OUTPUT);
+    pinMode(Port2Pin('B', 15), OUTPUT);
+}
+
+void loop() {
+    toggleLED();
+    togglePin(Port2Pin('E', 0));
+    togglePin(Port2Pin('E', 1));
+    togglePin(Port2Pin('E', 2));
+    togglePin(Port2Pin('E', 3));
+    togglePin(Port2Pin('E', 4));
+    togglePin(Port2Pin('E', 5));
+    togglePin(Port2Pin('E', 6));
+
+    togglePin(Port2Pin('B', 12));
+    togglePin(Port2Pin('B', 13));
+    togglePin(Port2Pin('B', 14));
+    togglePin(Port2Pin('B', 15));
+    delay(250);
+}
+
+// Force init to be called *first*, i.e. before static object allocation.
+// Otherwise, statically allocated objects that need libmaple may fail.
+__attribute__((constructor)) void premain() {
+    init();
+}
+
+int main(void) {
+    setup();
+
+    while (true) {
+        loop();
+    }
+
+    return 0;
+}
