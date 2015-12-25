@@ -1,0 +1,73 @@
+PCBNEW-LibModule-V1  Mon Mar 24 16:09:19 2014
+# encoding utf-8
+Units mm
+$INDEX
+SM8
+$EndINDEX
+$MODULE SM8
+Po 0 0 0 15 53309EF3 00000000 ~~
+Li SM8
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.07
+T0 0 -4 1 1 0 0.15 N V 21 N "SM8"
+T1 0 4 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 0.3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 1.7
+$EndPAD
+$PAD
+Sh "2" R 0.3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 1.7
+$EndPAD
+$PAD
+Sh "3" R 0.3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 1.7
+$EndPAD
+$PAD
+Sh "4" R 0.3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 1.7
+$EndPAD
+$PAD
+Sh "5" R 0.3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 -1.7
+$EndPAD
+$PAD
+Sh "6" R 0.3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 -1.7
+$EndPAD
+$PAD
+Sh "7" R 0.3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 -1.7
+$EndPAD
+$PAD
+Sh "8" R 0.3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 -1.7
+$EndPAD
+$EndMODULE SM8
+$EndLIBRARY

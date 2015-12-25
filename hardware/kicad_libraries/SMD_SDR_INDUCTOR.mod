@@ -1,0 +1,33 @@
+PCBNEW-LibModule-V1  Sat Mar 22 17:41:10 2014
+# encoding utf-8
+Units mm
+$INDEX
+SMD_SDR_INDUCTOR
+$EndINDEX
+$MODULE SMD_SDR_INDUCTOR
+Po 0 0 0 15 532E116D 00000000 ~~
+Li SMD_SDR_INDUCTOR
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.05
+.SolderPaste 0.05
+.LocalClearance 0.1
+T0 0 -3 1 1 0 0.15 N V 21 N "SMD_SDR_INDUCTOR"
+T1 0 3 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.4 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0
+$EndPAD
+$PAD
+Sh "2" R 1.4 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0
+$EndPAD
+$EndMODULE SMD_SDR_INDUCTOR
+$EndLIBRARY

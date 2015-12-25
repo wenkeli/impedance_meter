@@ -1,0 +1,48 @@
+PCBNEW-LibModule-V1  Fri Mar 21 16:22:20 2014
+# encoding utf-8
+Units mm
+$INDEX
+ELK_FILTER
+$EndINDEX
+$MODULE ELK_FILTER
+Po 0 0 0 15 532CAD84 00000000 ~~
+Li ELK_FILTER
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.1
+T0 0 -2.54 1.524 0.889 0 0.1524 N V 21 N "ELK_FILTER"
+T1 0 2.54 1.27 0.889 0 0.1524 N I 21 N "Val**"
+DS 3 1.75 3 -1.75 0.2032 21
+DS -3 1.75 -3 -1.75 0.2032 21
+DS 3 1.75 -3 1.75 0.2032 21
+DS -3 -1.75 3 -1.75 0.2032 21
+$PAD
+Sh "1" R 1.4 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.8 0
+$EndPAD
+$PAD
+Sh "2" R 0.8 2.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.8 0
+$EndPAD
+$SHAPE3D
+Na "discret/emi_filter.wrl"
+Sc 0.4 0.4 0.4
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE ELK_FILTER
+$EndLIBRARY

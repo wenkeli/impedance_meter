@@ -1,0 +1,34 @@
+PCBNEW-LibModule-V1  Sun Aug 17 21:45:30 2014
+# encoding utf-8
+Units mm
+$INDEX
+NR6028
+$EndINDEX
+$MODULE NR6028
+Po 0 0 0 15 53F168BB 00000000 ~~
+Li NR6028
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.49 1 1 0 0.15 N V 21 N "NR6028"
+T1 -0.02 4.79 1 1 0 0.15 N V 21 N "VAL**"
+DS -4 -3.4 4 -3.4 0.15 21
+DS 4 -3.4 4 3.4 0.15 21
+DS 4 3.4 -4 3.4 0.15 21
+DS -4 3.4 -4 -3.4 0.15 21
+$PAD
+Sh "1" R 2.2 5.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.35 0
+$EndPAD
+$PAD
+Sh "2" R 2.2 5.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.35 0
+$EndPAD
+$EndMODULE NR6028
+$EndLIBRARY

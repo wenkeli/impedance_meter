@@ -1,0 +1,81 @@
+PCBNEW-LibModule-V1  Fri Mar 21 15:50:24 2014
+# encoding utf-8
+Units mm
+$INDEX
+WFDFN-8
+$EndINDEX
+$MODULE WFDFN-8
+Po 0 0 0 15 532CA599 00000000 ~~
+Li WFDFN-8
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.07
+T0 0 -2.5 1 1 0 0.15 N V 21 N "WFDFN-8"
+T1 0 2.5 1 1 0 0.15 N V 21 N "VAL**"
+DC -1.57 -0.65 -1.51 -0.63 0.15 21
+$PAD
+Sh "9" R 1.6 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 0.28 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -0.95
+$EndPAD
+$PAD
+Sh "2" R 0.28 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -0.95
+$EndPAD
+$PAD
+Sh "3" R 0.28 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -0.95
+$EndPAD
+$PAD
+Sh "4" R 0.28 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -0.95
+$EndPAD
+$PAD
+Sh "5" R 0.28 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 0.95
+$EndPAD
+$PAD
+Sh "6" R 0.28 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 0.95
+$EndPAD
+$PAD
+Sh "7" R 0.28 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 0.95
+$EndPAD
+$PAD
+Sh "8" R 0.28 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 0.95
+$EndPAD
+$EndMODULE WFDFN-8
+$EndLIBRARY

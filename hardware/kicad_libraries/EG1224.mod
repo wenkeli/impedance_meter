@@ -1,0 +1,65 @@
+PCBNEW-LibModule-V1  Fri Mar 21 16:09:32 2014
+# encoding utf-8
+Units mm
+$INDEX
+EG1224
+$EndINDEX
+$MODULE EG1224
+Po 0 0 0 15 532CAA78 00000000 ~~
+Li EG1224
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -5 1 1 0 0.15 N V 21 N "EG1224"
+T1 0 5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6 -3
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6 3
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6 -3
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6 3
+$EndPAD
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4 -1.25
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.25
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4 -1.25
+$EndPAD
+$EndMODULE EG1224
+$EndLIBRARY

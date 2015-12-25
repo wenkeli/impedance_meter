@@ -1,0 +1,131 @@
+** Drc report for /home/consciousness/Work/electronics/impedanceP2/impedanceP2.kicad_pcb **
+** Created on 2014-03-30 18:14:26 **
+
+** Found 40 DRC errors **
+ErrType(22): Copper area inside copper area
+    @ (132.250 mm,110.800 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (132.250 mm,110.800 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (124.200 mm,118.850 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (124.200 mm,118.850 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (110.800 mm,118.850 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (110.800 mm,118.850 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (110.800 mm,113.250 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (110.800 mm,113.250 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (118.200 mm,113.250 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (118.200 mm,113.250 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (128.100 mm,103.350 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (128.100 mm,103.350 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (128.100 mm,100.300 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (128.100 mm,100.300 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (130.800 mm,100.300 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (130.800 mm,100.300 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (132.250 mm,101.750 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (132.250 mm,101.750 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (88.700 mm,136.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (88.700 mm,136.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (70.400 mm,136.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (70.400 mm,136.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (63.400 mm,129.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (63.400 mm,129.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (63.400 mm,126.400 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (63.400 mm,126.400 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (70.600 mm,126.400 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (70.600 mm,126.400 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (71.800 mm,127.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (71.800 mm,127.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (76.100 mm,127.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (76.100 mm,127.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (77.000 mm,126.700 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (77.000 mm,126.700 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (78.600 mm,126.700 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (78.600 mm,126.700 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (81.100 mm,124.200 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (81.100 mm,124.200 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (88.700 mm,124.200 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (88.700 mm,124.200 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (132.250 mm,110.800 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (132.250 mm,110.800 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (124.200 mm,118.850 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (124.200 mm,118.850 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (110.800 mm,118.850 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (110.800 mm,118.850 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (110.800 mm,113.250 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (110.800 mm,113.250 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (118.200 mm,113.250 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (118.200 mm,113.250 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (128.100 mm,103.350 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (128.100 mm,103.350 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (128.100 mm,100.300 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (128.100 mm,100.300 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (130.800 mm,100.300 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (130.800 mm,100.300 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (132.250 mm,101.750 mm): Zone Outline (53384903) [/5VOUT] on layer B.Cu
+    @ (132.250 mm,101.750 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (88.700 mm,136.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (88.700 mm,136.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (70.400 mm,136.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (70.400 mm,136.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (63.400 mm,129.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (63.400 mm,129.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (63.400 mm,126.400 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (63.400 mm,126.400 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (70.600 mm,126.400 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (70.600 mm,126.400 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (71.800 mm,127.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (71.800 mm,127.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (76.100 mm,127.600 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (76.100 mm,127.600 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (77.000 mm,126.700 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (77.000 mm,126.700 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (78.600 mm,126.700 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (78.600 mm,126.700 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (81.100 mm,124.200 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (81.100 mm,124.200 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+ErrType(22): Copper area inside copper area
+    @ (88.700 mm,124.200 mm): Zone Outline (5338A4CE) [/10VOUT] on layer B.Cu
+    @ (88.700 mm,124.200 mm): Zone Outline (5338A50C) [GND] on layer B.Cu
+
+** Found 1 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (61.900 mm,121.145 mm): Pad [7] (all copper layers) of J1 net /5VOUT
+    @ (117.700 mm,118.748 mm): Pad [S] (F.Cu) of Q2
+
+** End of Report **

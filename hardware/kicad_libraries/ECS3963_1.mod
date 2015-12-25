@@ -1,0 +1,47 @@
+PCBNEW-LibModule-V1  Mon Sep  8 18:26:48 2014
+# encoding utf-8
+Units mm
+$INDEX
+ECS3963_1
+$EndINDEX
+$MODULE ECS3963_1
+Po 0 0 0 15 540E3B18 00000000 ~~
+Li ECS3963_1
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.33 1 1 0 0.15 N V 21 N "ECS3963_1"
+T1 0 3.6 1 1 0 0.15 N V 21 N "VAL**"
+DC -3.59 1.92 -3.46 2.22 0.15 21
+DS 2.56 1.65 2.56 -1.65 0.15 21
+DS -2.56 1.65 -2.56 -1.65 0.15 21
+$PAD
+Sh "2" R 1.4 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 1.2
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 -1.2
+$EndPAD
+$PAD
+Sh "4" R 1.4 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 -1.2
+$EndPAD
+$PAD
+Sh "1" R 1.4 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 1.2
+$EndPAD
+$EndMODULE ECS3963_1
+$EndLIBRARY

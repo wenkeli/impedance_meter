@@ -1,0 +1,40 @@
+PCBNEW-LibModule-V1  Fri Feb 27 22:00:57 2015
+# encoding utf-8
+Units mm
+$INDEX
+POT_TT_160KN
+$EndINDEX
+$MODULE POT_TT_160KN
+Po 0 0 0 15 54F13D63 00000000 ~~
+Li POT_TT_160KN
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.01 -7.17 1 1 0 0.15 N I 21 N "POT_TT_160KN"
+T1 0 4.29 1 1 0 0.15 N V 21 N "VAL**"
+DS -8.5 -2 -8.5 3 0.15 21
+DS -8.5 3 8.5 3 0.15 21
+DS 8.6 -2 8.6 3 0.15 21
+$PAD
+Sh "1" C 2.4 2.4 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "2" C 2.4 2.4 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 2.4 2.4 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$EndMODULE POT_TT_160KN
+$EndLIBRARY
