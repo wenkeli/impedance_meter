@@ -1,4 +1,4 @@
-update=Fri Dec 25 14:03:32 2015
+update=Saturday, February 20, 2016 'AMt' 01:03:41 AM
 last_client=kicad
 [pcbnew]
 version=1
@@ -43,9 +43,19 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../kicad_libraries
+LibDir=../../../electronics/kicad_libraries/component_libs
 [eeschema/libraries]
 LibName1=impedanceP1-rescue
 LibName2=power
