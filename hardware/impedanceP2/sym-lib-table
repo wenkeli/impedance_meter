@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name impedanceP2-rescue)(type Legacy)(uri ${KIPRJMOD}/impedanceP2-rescue.lib)(options "")(descr ""))
+)

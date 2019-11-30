@@ -1,6 +1,60 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:impedanceP2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MCP73831
+LIBS:jst-ph
+LIBS:open-project
+LIBS:BU4051BC
+LIBS:OMNETICS_EIB36
+LIBS:AD5933
+LIBS:CD74HC4067
+LIBS:BU4053BC
+LIBS:BU4052BC
+LIBS:con-omnetics
+LIBS:DMG2307L-7
+LIBS:LTC3529
+LIBS:TPS62172
+LIBS:LM234
+LIBS:AD5245
+LIBS:con-usb-3
+LIBS:CONN_24X2
+LIBS:BU4066
+LIBS:LT1303
+LIBS:CD40109
+LIBS:LM3671
+LIBS:ISL9111
+LIBS:PCA9306
+LIBS:LM324QUAD
 LIBS:impedanceP2-cache
-EELAYER 30 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,7 +69,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L impedanceP2-rescue:USB J3
+L USB J3
 U 1 1 531117E7
 P 1750 1500
 F 0 "J3" H 1700 1900 60  0000 C CNN
@@ -27,7 +81,7 @@ F 4 "670-1190-1-ND" H 1750 1500 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:SWITCH_INV SW1
+L SWITCH_INV SW1
 U 1 1 53111A93
 P 3300 1150
 F 0 "SW1" H 3100 1300 50  0000 C CNN
@@ -43,7 +97,7 @@ NoConn ~ 2100 1850
 NoConn ~ 1350 1850
 NoConn ~ 1350 1950
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR01
+L GND-RESCUE-impedanceP2 #PWR01
 U 1 1 53111B06
 P 2100 1950
 F 0 "#PWR01" H 2100 1950 30  0001 C CNN
@@ -54,7 +108,7 @@ F 3 "" H 2100 1950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR02
+L +5V #PWR02
 U 1 1 53111B33
 P 1350 1700
 F 0 "#PWR02" H 1350 1790 20  0001 C CNN
@@ -65,7 +119,7 @@ F 3 "" H 1350 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:MCP73831 MCP1
+L MCP73831 MCP1
 U 1 1 53111B71
 P 2000 2900
 F 0 "MCP1" H 2000 2800 50  0000 C CNN
@@ -77,7 +131,7 @@ F 4 "MCP73831T-2ATI/OTCT-ND" H 2000 2900 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR03
+L +5V #PWR03
 U 1 1 53111BA3
 P 2750 3000
 F 0 "#PWR03" H 2750 3090 20  0001 C CNN
@@ -90,7 +144,7 @@ $EndComp
 Text Label 1250 3000 0    60   ~ 0
 VBAT
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR04
+L GND-RESCUE-impedanceP2 #PWR04
 U 1 1 53111BCE
 P 1250 2900
 F 0 "#PWR04" H 1250 2900 30  0001 C CNN
@@ -101,7 +155,7 @@ F 3 "" H 1250 2900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R1
+L R-RESCUE-impedanceP2 R1
 U 1 1 53111C16
 P 850 2300
 F 0 "R1" V 930 2300 40  0000 C CNN
@@ -113,7 +167,7 @@ F 4 "1276-4599-1-ND" V 850 2300 60  0001 C CNN "digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L impedanceP2-rescue:LED-RESCUE-impedanceP2 D1
+L LED-RESCUE-impedanceP2 D1
 U 1 1 53111C29
 P 1050 2550
 F 0 "D1" H 1050 2650 50  0000 C CNN
@@ -125,7 +179,7 @@ F 4 "160-1447-1-ND" H 1050 2550 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR05
+L +5V #PWR05
 U 1 1 53111C4F
 P 850 2050
 F 0 "#PWR05" H 850 2140 20  0001 C CNN
@@ -138,7 +192,7 @@ $EndComp
 Wire Wire Line
 	1250 2800 1250 2550
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R2
+L R-RESCUE-impedanceP2 R2
 U 1 1 53111D57
 P 3000 2900
 F 0 "R2" V 3080 2900 40  0000 C CNN
@@ -150,7 +204,7 @@ F 4 "311-2.00KHRCT-ND" V 3000 2900 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR06
+L GND-RESCUE-impedanceP2 #PWR06
 U 1 1 53111D6F
 P 3250 2900
 F 0 "#PWR06" H 3250 2900 30  0001 C CNN
@@ -161,7 +215,7 @@ F 3 "" H 3250 2900 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C1
+L C-RESCUE-impedanceP2 C1
 U 1 1 53111F08
 P 2050 2350
 F 0 "C1" H 2050 2450 40  0000 L CNN
@@ -176,7 +230,7 @@ NoConn ~ 3800 1050
 Text Label 2800 1150 0    60   ~ 0
 VBAT
 $Comp
-L impedanceP2-rescue:JST-PH2 P1
+L JST-PH2 P1
 U 1 1 531120AD
 P 1100 3800
 F 0 "P1" H 1000 3930 50  0000 L BNN
@@ -190,7 +244,7 @@ $EndComp
 Text Label 1400 3800 0    60   ~ 0
 VBAT
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R3
+L R-RESCUE-impedanceP2 R3
 U 1 1 531122E7
 P 3150 1750
 F 0 "R3" V 3230 1750 40  0000 C CNN
@@ -204,7 +258,7 @@ $EndComp
 Text Label 6450 700  0    60   ~ 0
 VMOS
 $Comp
-L impedanceP2-rescue:INDUCTOR L1
+L INDUCTOR L1
 U 1 1 53125350
 P 5300 750
 F 0 "L1" V 5250 750 40  0000 C CNN
@@ -216,7 +270,7 @@ F 4 "308-2050-1-ND" V 5300 750 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C5
+L C-RESCUE-impedanceP2 C5
 U 1 1 531253D3
 P 6350 1350
 F 0 "C5" H 6350 1450 40  0000 L CNN
@@ -228,7 +282,7 @@ F 4 "587-2786-1-ND" H 6350 1350 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR07
+L GND-RESCUE-impedanceP2 #PWR07
 U 1 1 531253E2
 P 6700 1400
 F 0 "#PWR07" H 6700 1400 30  0001 C CNN
@@ -239,7 +293,7 @@ F 3 "" H 6700 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C3
+L C-RESCUE-impedanceP2 C3
 U 1 1 531254F7
 P 6250 800
 F 0 "C3" H 6250 900 40  0000 L CNN
@@ -257,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1550 3700 1550
 $Comp
-L impedanceP2-rescue:MOSFET_P Q1
+L MOSFET_P Q1
 U 1 1 53125A61
 P 3600 1750
 F 0 "Q1" H 3600 1940 60  0000 R CNN
@@ -269,7 +323,7 @@ F 4 "DMG2307L-7DICT-ND" H 3600 1750 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:EMI_FILTER2 FI1
+L EMI_FILTER2 FI1
 U 1 1 53125BE5
 P 6700 1150
 F 0 "FI1" H 6700 1250 50  0000 C CNN
@@ -281,7 +335,7 @@ F 4 "P13159CT-ND" H 6700 1150 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR08
+L GND-RESCUE-impedanceP2 #PWR08
 U 1 1 53125C2E
 P 6350 1550
 F 0 "#PWR08" H 6350 1550 30  0001 C CNN
@@ -294,7 +348,7 @@ $EndComp
 Text Label 7450 800  0    60   ~ 0
 5VOUT
 $Comp
-L impedanceP2-rescue:RJ45 J1
+L RJ45 J1
 U 1 1 53126ABB
 P 1300 4800
 F 0 "J1" H 1500 5300 60  0000 C CNN
@@ -306,7 +360,7 @@ F 4 "609-1046-ND" H 1300 4800 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:RJ45 J2
+L RJ45 J2
 U 1 1 53126AC8
 P 1300 6400
 F 0 "J2" H 1500 6900 60  0000 C CNN
@@ -342,7 +396,7 @@ SDA5V
 Text Label 950  6850 3    60   ~ 0
 SCL5V
 $Comp
-L impedanceP2-rescue:CONN_24X2 P2
+L CONN_24X2 P2
 U 1 1 53127516
 P 8450 1950
 F 0 "P2" H 8450 3250 60  0000 C CNN
@@ -353,7 +407,7 @@ F 3 "" H 8450 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:CONN_24X2 P3
+L CONN_24X2 P3
 U 1 1 5312752D
 P 9750 1950
 F 0 "P3" H 9750 3250 60  0000 C CNN
@@ -426,7 +480,7 @@ SCL
 Text Label 8050 2950 0    60   ~ 0
 SDA
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR09
+L GND-RESCUE-impedanceP2 #PWR09
 U 1 1 531627BD
 P 9350 750
 F 0 "#PWR09" H 9350 750 30  0001 C CNN
@@ -483,7 +537,7 @@ NoConn ~ 10150 1450
 NoConn ~ 10150 2550
 NoConn ~ 10150 2950
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR010
+L GND-RESCUE-impedanceP2 #PWR010
 U 1 1 531A0661
 P 6250 600
 F 0 "#PWR010" H 6250 600 30  0001 C CNN
@@ -494,7 +548,7 @@ F 3 "" H 6250 600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR011
+L GND-RESCUE-impedanceP2 #PWR011
 U 1 1 531A068D
 P 2250 2350
 F 0 "#PWR011" H 2250 2350 30  0001 C CNN
@@ -505,7 +559,7 @@ F 3 "" H 2250 2350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR012
+L GND-RESCUE-impedanceP2 #PWR012
 U 1 1 531A069C
 P 2900 1750
 F 0 "#PWR012" H 2900 1750 30  0001 C CNN
@@ -517,7 +571,7 @@ F 3 "" H 2900 1750 60  0000 C CNN
 $EndComp
 NoConn ~ 8050 1850
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR013
+L GND-RESCUE-impedanceP2 #PWR013
 U 1 1 531A06B1
 P 1400 3900
 F 0 "#PWR013" H 1400 3900 30  0001 C CNN
@@ -528,7 +582,7 @@ F 3 "" H 1400 3900 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR014
+L GND-RESCUE-impedanceP2 #PWR014
 U 1 1 531A06C0
 P 950 5250
 F 0 "#PWR014" H 950 5250 30  0001 C CNN
@@ -539,7 +593,7 @@ F 3 "" H 950 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR015
+L GND-RESCUE-impedanceP2 #PWR015
 U 1 1 531A06F3
 P 4550 1150
 F 0 "#PWR015" H 4550 1150 30  0001 C CNN
@@ -550,7 +604,7 @@ F 3 "" H 4550 1150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:MOSFET_P Q2
+L MOSFET_P Q2
 U 1 1 5321F5A2
 P 7250 900
 F 0 "Q2" H 7250 1090 60  0000 R CNN
@@ -562,7 +616,7 @@ F 4 "DMG2307L-7DICT-ND" H 7250 900 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:MC34063 U1
+L MC34063 U1
 U 1 1 532B5E26
 P 5750 3450
 F 0 "U1" H 5900 3800 60  0000 L CNN
@@ -574,7 +628,7 @@ F 4 "296-17765-1-ND" H 5750 3450 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C6
+L C-RESCUE-impedanceP2 C6
 U 1 1 532B5FF0
 P 4250 3100
 F 0 "C6" H 4250 3200 40  0000 L CNN
@@ -586,7 +640,7 @@ F 4 "587-3152-1-ND" H 4250 3100 60  0001 C CNN "digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R6
+L R-RESCUE-impedanceP2 R6
 U 1 1 532B608A
 P 4650 3300
 F 0 "R6" V 4730 3300 40  0000 C CNN
@@ -598,7 +652,7 @@ F 4 "P.43BHCT-ND" V 4650 3300 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:INDUCTOR L3
+L INDUCTOR L3
 U 1 1 532B618B
 P 6800 3050
 F 0 "L3" V 6750 3050 40  0000 C CNN
@@ -610,7 +664,7 @@ F 4 "445-1983-1-ND" V 6800 3050 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R7
+L R-RESCUE-impedanceP2 R7
 U 1 1 532B6201
 P 6600 3000
 F 0 "R7" V 6680 3000 40  0000 C CNN
@@ -622,15 +676,16 @@ F 4 "P180ADCT-ND" V 6600 3000 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 2750 6600 2750
+	4900 2750 6800 2750
 Wire Wire Line
-	3900 3300 4250 3300
+	3900 3300 4400 3300
+Connection ~ 6800 2750
 Connection ~ 6600 2750
 Connection ~ 4250 3300
 Text Label 3900 3300 0    60   ~ 0
 VMOS
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C7
+L C-RESCUE-impedanceP2 C7
 U 1 1 532B62F0
 P 4900 3800
 F 0 "C7" H 4900 3900 40  0000 L CNN
@@ -642,7 +697,7 @@ F 4 "1276-2261-1-ND" H 4900 3800 60  0001 C CNN "digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR016
+L GND-RESCUE-impedanceP2 #PWR016
 U 1 1 532B6318
 P 5750 3950
 F 0 "#PWR016" H 5750 3950 30  0001 C CNN
@@ -653,7 +708,7 @@ F 3 "" H 5750 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR017
+L GND-RESCUE-impedanceP2 #PWR017
 U 1 1 532B6327
 P 6600 3500
 F 0 "#PWR017" H 6600 3500 30  0001 C CNN
@@ -664,7 +719,7 @@ F 3 "" H 6600 3500 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R9
+L R-RESCUE-impedanceP2 R9
 U 1 1 532B6336
 P 7200 3600
 F 0 "R9" V 7280 3600 40  0000 C CNN
@@ -676,7 +731,7 @@ F 4 "311-71.5KHRCT-ND" V 7200 3600 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:DIODESCH D3
+L DIODESCH D3
 U 1 1 532B6345
 P 7000 3350
 F 0 "D3" H 7000 3450 40  0000 C CNN
@@ -688,7 +743,7 @@ F 4 "B220A-FDICT-ND" H 7000 3350 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R8
+L R-RESCUE-impedanceP2 R8
 U 1 1 532B6406
 P 6600 3900
 F 0 "R8" V 6680 3900 40  0000 C CNN
@@ -700,7 +755,7 @@ F 4 "311-10.0KHRCT-ND" V 6600 3900 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR018
+L GND-RESCUE-impedanceP2 #PWR018
 U 1 1 532B6415
 P 6600 4150
 F 0 "#PWR018" H 6600 4150 30  0001 C CNN
@@ -711,7 +766,7 @@ F 3 "" H 6600 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR019
+L GND-RESCUE-impedanceP2 #PWR019
 U 1 1 532B642E
 P 4900 4000
 F 0 "#PWR019" H 4900 4000 30  0001 C CNN
@@ -722,7 +777,7 @@ F 3 "" H 4900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR020
+L GND-RESCUE-impedanceP2 #PWR020
 U 1 1 532B643D
 P 4250 2900
 F 0 "#PWR020" H 4250 2900 30  0001 C CNN
@@ -733,7 +788,7 @@ F 3 "" H 4250 2900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C8
+L C-RESCUE-impedanceP2 C8
 U 1 1 532B732A
 P 7600 3350
 F 0 "C8" H 7600 3450 40  0000 L CNN
@@ -745,7 +800,7 @@ F 4 "587-3152-1-ND" H 7600 3350 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR021
+L GND-RESCUE-impedanceP2 #PWR021
 U 1 1 532B7339
 P 7800 3350
 F 0 "#PWR021" H 7800 3350 30  0001 C CNN
@@ -756,7 +811,7 @@ F 3 "" H 7800 3350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:INDUCTOR L4
+L INDUCTOR L4
 U 1 1 532B7D3F
 P 5650 2300
 F 0 "L4" V 5600 2300 40  0000 C CNN
@@ -768,7 +823,7 @@ F 4 "445-1983-1-ND" V 5650 2300 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C9
+L C-RESCUE-impedanceP2 C9
 U 1 1 532B7D96
 P 5950 2100
 F 0 "C9" H 5950 2200 40  0000 L CNN
@@ -782,7 +837,7 @@ $EndComp
 Text Label 6150 2300 0    60   ~ 0
 10VOUT
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR022
+L GND-RESCUE-impedanceP2 #PWR022
 U 1 1 532B7DF7
 P 5950 1900
 F 0 "#PWR022" H 5950 1900 30  0001 C CNN
@@ -797,7 +852,7 @@ X16S3V10
 NoConn ~ 10150 1250
 NoConn ~ 9350 1250
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C13
+L C-RESCUE-impedanceP2 C13
 U 1 1 532C8D0A
 P 3450 5350
 F 0 "C13" H 3450 5450 40  0000 L CNN
@@ -809,7 +864,7 @@ F 4 "587-2786-1-ND" H 3450 5350 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR023
+L GND-RESCUE-impedanceP2 #PWR023
 U 1 1 532C8D18
 P 3250 5350
 F 0 "#PWR023" H 3250 5350 30  0001 C CNN
@@ -839,7 +894,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3350 6800 3350
 $Comp
-L impedanceP2-rescue:ISL9111 U2
+L ISL9111 U2
 U 1 1 532DFEFA
 P 5300 1150
 F 0 "U2" H 5300 1050 50  0000 C CNN
@@ -874,7 +929,7 @@ Text Label 4550 1250 0    60   ~ 0
 VMOS
 NoConn ~ 6050 1250
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR024
+L GND-RESCUE-impedanceP2 #PWR024
 U 1 1 532E0AF8
 P 7250 1600
 F 0 "#PWR024" H 7250 1600 30  0001 C CNN
@@ -884,10 +939,11 @@ F 3 "" H 7250 1600 60  0000 C CNN
 	1    7250 1600
 	1    0    0    -1  
 $EndComp
+Connection ~ 7200 3850
 Text Label 8850 3050 0    60   ~ 0
 3.3VOUT
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR025
+L GND-RESCUE-impedanceP2 #PWR025
 U 1 1 53305CA6
 P 8050 3050
 F 0 "#PWR025" H 8050 3050 30  0001 C CNN
@@ -898,7 +954,7 @@ F 3 "" H 8050 3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:PCA9306 U6
+L PCA9306 U6
 U 1 1 53308614
 P 9200 4400
 F 0 "U6" H 9200 4300 50  0000 C CNN
@@ -910,7 +966,7 @@ F 4 "296-18509-1-ND" H 9200 4400 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR026
+L GND-RESCUE-impedanceP2 #PWR026
 U 1 1 5330862D
 P 8450 4250
 F 0 "#PWR026" H 8450 4250 30  0001 C CNN
@@ -921,7 +977,7 @@ F 3 "" H 8450 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R31
+L R-RESCUE-impedanceP2 R31
 U 1 1 5330865D
 P 9700 3900
 F 0 "R31" V 9780 3900 40  0000 C CNN
@@ -933,7 +989,7 @@ F 4 "311-200KHRCT-ND" V 9700 3900 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C2
+L C-RESCUE-impedanceP2 C2
 U 1 1 5330866C
 P 9950 3700
 F 0 "C2" H 9950 3800 40  0000 L CNN
@@ -945,7 +1001,7 @@ F 4 "587-2786-1-ND" H 9950 3700 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR027
+L GND-RESCUE-impedanceP2 #PWR027
 U 1 1 5330867B
 P 9950 3500
 F 0 "#PWR027" H 9950 3500 30  0001 C CNN
@@ -969,13 +1025,13 @@ SCL
 Text Label 8000 5100 2    60   ~ 0
 SDA
 Wire Wire Line
-	8300 5000 8100 5000
+	8300 5000 8000 5000
 Wire Wire Line
 	8450 5100 8450 4550
 Wire Wire Line
-	8000 5100 8100 5100
+	8000 5100 8450 5100
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R28
+L R-RESCUE-impedanceP2 R28
 U 1 1 5330876F
 P 8100 4750
 F 0 "R28" V 8180 4750 40  0000 C CNN
@@ -987,7 +1043,7 @@ F 4 "311-4.70KHRCT-ND" V 8100 4750 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R29
+L R-RESCUE-impedanceP2 R29
 U 1 1 5330877E
 P 8100 5350
 F 0 "R29" V 8180 5350 40  0000 C CNN
@@ -1003,15 +1059,15 @@ Text Label 8100 4500 2    60   ~ 0
 Text Label 8100 5600 2    60   ~ 0
 3.3VOUT
 Wire Wire Line
-	9950 4450 10100 4450
+	9950 4450 10400 4450
 Wire Wire Line
-	9950 4550 10100 4550
+	9950 4550 10400 4550
 Text Label 10400 4450 2    60   ~ 0
 SCL5V
 Text Label 10400 4550 2    60   ~ 0
 SDA5V
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R33
+L R-RESCUE-impedanceP2 R33
 U 1 1 533087E0
 P 10100 4800
 F 0 "R33" V 10180 4800 40  0000 C CNN
@@ -1023,7 +1079,7 @@ F 4 "311-4.70KHRCT-ND" V 10100 4800 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R32
+L R-RESCUE-impedanceP2 R32
 U 1 1 533087ED
 P 10100 4200
 F 0 "R32" V 10180 4200 40  0000 C CNN
@@ -1039,9 +1095,9 @@ Text Label 10100 5050 0    60   ~ 0
 Text Label 10100 3950 0    60   ~ 0
 5VOUT
 Wire Wire Line
-	9950 3900 9950 4250
+	9950 3900 9950 4350
 $Comp
-L impedanceP2-rescue:LM324QUAD U3
+L LM324QUAD U3
 U 1 1 53308B3A
 P 4350 7200
 F 0 "U3" H 4350 7100 50  0000 C CNN
@@ -1063,7 +1119,7 @@ X16S3V10
 Text Label 3600 7200 0    60   ~ 0
 10VOUT
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR028
+L GND-RESCUE-impedanceP2 #PWR028
 U 1 1 53308CE5
 P 5100 7200
 F 0 "#PWR028" H 5100 7200 30  0001 C CNN
@@ -1090,7 +1146,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 7400 5600 7500
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR029
+L GND-RESCUE-impedanceP2 #PWR029
 U 1 1 53308E40
 P 6100 7000
 F 0 "#PWR029" H 6100 7000 30  0001 C CNN
@@ -1101,7 +1157,7 @@ F 3 "" H 6100 7000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR030
+L GND-RESCUE-impedanceP2 #PWR030
 U 1 1 53308E4D
 P 6100 7400
 F 0 "#PWR030" H 6100 7400 30  0001 C CNN
@@ -1112,7 +1168,7 @@ F 3 "" H 6100 7400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR031
+L GND-RESCUE-impedanceP2 #PWR031
 U 1 1 53308E53
 P 2600 7400
 F 0 "#PWR031" H 2600 7400 30  0001 C CNN
@@ -1123,7 +1179,7 @@ F 3 "" H 2600 7400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR032
+L GND-RESCUE-impedanceP2 #PWR032
 U 1 1 53308E59
 P 2600 7000
 F 0 "#PWR032" H 2600 7000 30  0001 C CNN
@@ -1142,7 +1198,7 @@ X16S2
 Text Label 5100 7100 0    60   ~ 0
 X16S3
 $Comp
-L impedanceP2-rescue:LM324QUAD U5
+L LM324QUAD U5
 U 1 1 53309277
 P 8600 6550
 F 0 "U5" H 8600 6450 50  0000 C CNN
@@ -1154,7 +1210,7 @@ F 4 "296-9544-1-ND" H 8600 6550 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR033
+L GND-RESCUE-impedanceP2 #PWR033
 U 1 1 53309294
 P 9350 6550
 F 0 "#PWR033" H 9350 6550 30  0001 C CNN
@@ -1177,7 +1233,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 6750 9850 6850
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR034
+L GND-RESCUE-impedanceP2 #PWR034
 U 1 1 533092C6
 P 10350 6750
 F 0 "#PWR034" H 10350 6750 30  0001 C CNN
@@ -1188,7 +1244,7 @@ F 3 "" H 10350 6750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR035
+L GND-RESCUE-impedanceP2 #PWR035
 U 1 1 533092CC
 P 6850 6750
 F 0 "#PWR035" H 6850 6750 30  0001 C CNN
@@ -1199,7 +1255,7 @@ F 3 "" H 6850 6750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR036
+L GND-RESCUE-impedanceP2 #PWR036
 U 1 1 533092D2
 P 6850 6350
 F 0 "#PWR036" H 6850 6350 30  0001 C CNN
@@ -1210,7 +1266,7 @@ F 3 "" H 6850 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:LM324QUAD U4
+L LM324QUAD U4
 U 1 1 533092DC
 P 4400 5350
 F 0 "U4" H 4400 5250 50  0000 C CNN
@@ -1222,7 +1278,7 @@ F 4 "296-9544-1-ND" H 4400 5350 60  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R15
+L R-RESCUE-impedanceP2 R15
 U 1 1 533092E6
 P 3400 5650
 F 0 "R15" V 3480 5650 40  0000 C CNN
@@ -1234,7 +1290,7 @@ F 4 "P95.3KHCT-ND" V 3400 5650 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R19
+L R-RESCUE-impedanceP2 R19
 U 1 1 533092EC
 P 5400 5650
 F 0 "R19" V 5480 5650 40  0000 C CNN
@@ -1246,7 +1302,7 @@ F 4 "P95.3KHCT-ND" V 5400 5650 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R18
+L R-RESCUE-impedanceP2 R18
 U 1 1 533092F2
 P 5400 5050
 F 0 "R18" V 5480 5050 40  0000 C CNN
@@ -1260,7 +1316,7 @@ $EndComp
 Text Label 3650 5350 0    60   ~ 0
 10VOUT
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR037
+L GND-RESCUE-impedanceP2 #PWR037
 U 1 1 533092F9
 P 5150 5350
 F 0 "#PWR037" H 5150 5350 30  0001 C CNN
@@ -1271,7 +1327,7 @@ F 3 "" H 5150 5350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R14
+L R-RESCUE-impedanceP2 R14
 U 1 1 533092FF
 P 3400 5050
 F 0 "R14" V 3480 5050 40  0000 C CNN
@@ -1287,7 +1343,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 5150 3650 5150
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R10
+L R-RESCUE-impedanceP2 R10
 U 1 1 53309307
 P 2900 5150
 F 0 "R10" V 2980 5150 40  0000 C CNN
@@ -1299,7 +1355,7 @@ F 4 "311-47.0KHRCT-ND" V 2900 5150 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R11
+L R-RESCUE-impedanceP2 R11
 U 1 1 5330930D
 P 2900 5550
 F 0 "R11" V 2980 5550 40  0000 C CNN
@@ -1315,7 +1371,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 5550 3150 5650
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R22
+L R-RESCUE-impedanceP2 R22
 U 1 1 53309315
 P 5900 5150
 F 0 "R22" V 5980 5150 40  0000 C CNN
@@ -1327,7 +1383,7 @@ F 4 "311-47.0KHRCT-ND" V 5900 5150 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R23
+L R-RESCUE-impedanceP2 R23
 U 1 1 5330931B
 P 5900 5550
 F 0 "R23" V 5980 5550 40  0000 C CNN
@@ -1347,7 +1403,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 5550 5650 5650
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR038
+L GND-RESCUE-impedanceP2 #PWR038
 U 1 1 53309325
 P 6150 5150
 F 0 "#PWR038" H 6150 5150 30  0001 C CNN
@@ -1358,7 +1414,7 @@ F 3 "" H 6150 5150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR039
+L GND-RESCUE-impedanceP2 #PWR039
 U 1 1 5330932B
 P 6150 5550
 F 0 "#PWR039" H 6150 5550 30  0001 C CNN
@@ -1369,7 +1425,7 @@ F 3 "" H 6150 5550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR040
+L GND-RESCUE-impedanceP2 #PWR040
 U 1 1 53309331
 P 2650 5550
 F 0 "#PWR040" H 2650 5550 30  0001 C CNN
@@ -1380,7 +1436,7 @@ F 3 "" H 2650 5550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR041
+L GND-RESCUE-impedanceP2 #PWR041
 U 1 1 53309337
 P 2650 5150
 F 0 "#PWR041" H 2650 5150 30  0001 C CNN
@@ -1428,7 +1484,7 @@ Connection ~ 8100 5100
 Connection ~ 10100 4550
 Connection ~ 10100 4450
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R4
+L R-RESCUE-impedanceP2 R4
 U 1 1 53309AA5
 P 2850 7000
 F 0 "R4" V 2930 7000 40  0000 C CNN
@@ -1440,7 +1496,7 @@ F 4 "311-47.0KHRCT-ND" V 2850 7000 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R5
+L R-RESCUE-impedanceP2 R5
 U 1 1 53309AAB
 P 2850 7400
 F 0 "R5" V 2930 7400 40  0000 C CNN
@@ -1452,7 +1508,7 @@ F 4 "311-47.0KHRCT-ND" V 2850 7400 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R20
+L R-RESCUE-impedanceP2 R20
 U 1 1 53309AB1
 P 5850 7000
 F 0 "R20" V 5930 7000 40  0000 C CNN
@@ -1464,7 +1520,7 @@ F 4 "311-47.0KHRCT-ND" V 5850 7000 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R21
+L R-RESCUE-impedanceP2 R21
 U 1 1 53309AC1
 P 5850 7400
 F 0 "R21" V 5930 7400 40  0000 C CNN
@@ -1476,7 +1532,7 @@ F 4 "311-47.0KHRCT-ND" V 5850 7400 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R24
+L R-RESCUE-impedanceP2 R24
 U 1 1 53309AD1
 P 7100 6350
 F 0 "R24" V 7180 6350 40  0000 C CNN
@@ -1488,7 +1544,7 @@ F 4 "311-47.0KHRCT-ND" V 7100 6350 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R25
+L R-RESCUE-impedanceP2 R25
 U 1 1 53309AD7
 P 7100 6750
 F 0 "R25" V 7180 6750 40  0000 C CNN
@@ -1500,7 +1556,7 @@ F 4 "311-47.0KHRCT-ND" V 7100 6750 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R34
+L R-RESCUE-impedanceP2 R34
 U 1 1 53309ADD
 P 10100 6750
 F 0 "R34" V 10180 6750 40  0000 C CNN
@@ -1512,7 +1568,7 @@ F 4 "311-47.0KHRCT-ND" V 10100 6750 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R12
+L R-RESCUE-impedanceP2 R12
 U 1 1 53309AE3
 P 3350 6900
 F 0 "R12" V 3430 6900 40  0000 C CNN
@@ -1524,7 +1580,7 @@ F 4 "P95.3KHCT-ND" V 3350 6900 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R13
+L R-RESCUE-impedanceP2 R13
 U 1 1 53309AE9
 P 3350 7500
 F 0 "R13" V 3430 7500 40  0000 C CNN
@@ -1536,7 +1592,7 @@ F 4 "P95.3KHCT-ND" V 3350 7500 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R17
+L R-RESCUE-impedanceP2 R17
 U 1 1 53309AEF
 P 5350 7500
 F 0 "R17" V 5430 7500 40  0000 C CNN
@@ -1548,7 +1604,7 @@ F 4 "P95.3KHCT-ND" V 5350 7500 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R16
+L R-RESCUE-impedanceP2 R16
 U 1 1 53309AF5
 P 5350 6900
 F 0 "R16" V 5430 6900 40  0000 C CNN
@@ -1560,7 +1616,7 @@ F 4 "P95.3KHCT-ND" V 5350 6900 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R27
+L R-RESCUE-impedanceP2 R27
 U 1 1 53309AFB
 P 7600 6850
 F 0 "R27" V 7680 6850 40  0000 C CNN
@@ -1572,7 +1628,7 @@ F 4 "P95.3KHCT-ND" V 7600 6850 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R26
+L R-RESCUE-impedanceP2 R26
 U 1 1 53309B01
 P 7600 6250
 F 0 "R26" V 7680 6250 40  0000 C CNN
@@ -1584,7 +1640,7 @@ F 4 "P95.3KHCT-ND" V 7600 6250 60  0001 C CNN "digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R30
+L R-RESCUE-impedanceP2 R30
 U 1 1 53309B07
 P 9600 6850
 F 0 "R30" V 9680 6850 40  0000 C CNN
@@ -1598,7 +1654,7 @@ $EndComp
 Text Label 8850 750  0    60   ~ 0
 5VOUT
 $Comp
-L impedanceP2-rescue:R-RESCUE-impedanceP2 R35
+L R-RESCUE-impedanceP2 R35
 U 1 1 533430A0
 P 7250 1350
 F 0 "R35" V 7330 1350 40  0000 C CNN
@@ -1611,7 +1667,7 @@ F 4 "311-100KHRCT-ND" V 7250 1350 60  0001 C CNN "digikey"
 $EndComp
 NoConn ~ 8050 750 
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C4
+L C-RESCUE-impedanceP2 C4
 U 1 1 5334598C
 P 3400 7200
 F 0 "C4" H 3400 7300 40  0000 L CNN
@@ -1623,7 +1679,7 @@ F 4 "587-2786-1-ND" H 3400 7200 60  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C10
+L C-RESCUE-impedanceP2 C10
 U 1 1 53345992
 P 7650 6550
 F 0 "C10" H 7650 6650 40  0000 L CNN
@@ -1635,7 +1691,7 @@ F 4 "587-2786-1-ND" H 7650 6550 60  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR042
+L GND-RESCUE-impedanceP2 #PWR042
 U 1 1 533459CB
 P 3200 7200
 F 0 "#PWR042" H 3200 7200 30  0001 C CNN
@@ -1646,7 +1702,7 @@ F 3 "" H 3200 7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR043
+L GND-RESCUE-impedanceP2 #PWR043
 U 1 1 533459D8
 P 7450 6550
 F 0 "#PWR043" H 7450 6550 30  0001 C CNN
@@ -1664,7 +1720,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 3350 7400 2550
 $Comp
-L power:+5V #PWR044
+L +5V #PWR044
 U 1 1 53111F17
 P 1850 2350
 F 0 "#PWR044" H 1850 2440 20  0001 C CNN
@@ -1675,7 +1731,7 @@ F 3 "" H 1850 2350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impedanceP2-rescue:C-RESCUE-impedanceP2 C11
+L C-RESCUE-impedanceP2 C11
 U 1 1 53382CB2
 P 2050 3400
 F 0 "C11" H 2050 3500 40  0000 L CNN
@@ -1689,7 +1745,7 @@ $EndComp
 Text Label 1850 3400 2    60   ~ 0
 VBAT
 $Comp
-L impedanceP2-rescue:GND-RESCUE-impedanceP2 #PWR045
+L GND-RESCUE-impedanceP2 #PWR045
 U 1 1 53382E44
 P 2250 3400
 F 0 "#PWR045" H 2250 3400 30  0001 C CNN
@@ -1725,18 +1781,4 @@ Text Notes 8600 2850 0    60   ~ 0
 PB10
 Text Notes 7800 2950 0    60   ~ 0
 PB11
-Wire Wire Line
-	6600 2750 6800 2750
-Wire Wire Line
-	4250 3300 4400 3300
-Wire Wire Line
-	9950 4250 9950 4350
-Wire Wire Line
-	8100 5000 8000 5000
-Wire Wire Line
-	8100 5100 8450 5100
-Wire Wire Line
-	10100 4550 10400 4550
-Wire Wire Line
-	10100 4450 10400 4450
 $EndSCHEMATC
